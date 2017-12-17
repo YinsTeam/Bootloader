@@ -19,4 +19,3 @@ bootsect: bootsect.o ld-bootsect.ld
 clean:
 	@rm -f *.o
 	@rm -f bootsect
-	
