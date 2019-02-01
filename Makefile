@@ -32,7 +32,7 @@ binary.o: binary.S
 	- @as --32 binary.S -o binary.o
 
 clean:
-	- @rm -f *.o bootsect 
+	- @rm -f *.o bootsect setup binary Image 
 
 setup.o: setup.S
 	- @as --32 setup.S -o setup.o
