@@ -1,4 +1,4 @@
-all: Image
+all: run
 
 .PHONY=clean run
 
