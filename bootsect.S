@@ -47,7 +47,7 @@ demo_load_ok:
 	ljmp $0x1020, $0
 
 _string:
-	.ascii "Hello Bootloader!"
+	.ascii "Hello from Bootloader!"
 	.byte 13, 10, 13, 10
 
 .= 510
